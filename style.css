@@ -1,0 +1,416 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+body {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	font-family: 'Roboto', sans-serif;
+}
+
+img {
+	width: 100%;
+}
+
+
+.header {
+	background-color: #213B7E;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: calc(50% - 1268px / 2);
+    padding-right: calc(50% - 1268px / 2);
+}
+
+
+.menu {
+	display: flex;
+	list-style-type: none;
+}
+
+
+.menu__link {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 23px;
+	text-decoration-line: underline;
+	color: white;
+	padding: 28px 18px;
+	display: block;
+}
+
+
+.menu__link_active {
+	color: #213B7E;
+	background-color: white;
+}
+
+.button {
+	width: 153px;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #EA5D21;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+	color: white;
+	text-decoration: none;
+}
+
+
+.title {
+	margin-top: 30px;
+	margin-bottom: 25px;
+}
+
+.subtitle {
+	margin-top: 15px;
+	margin-bottom: 10px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 29px;
+}
+
+.about__text {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+}
+
+.content {
+	padding-left: calc(50% - 1268px / 2);
+    padding-right: calc(50% - 1268px / 2);
+	position: relative;
+}
+
+.js {
+	position: absolute;
+	width: 500px;
+	height: 418px;
+	margin-top: -15px;
+	margin-left: 384px;
+	background-color: #FFFFFF;
+	border: 1px solid #213B7E;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 28px;
+}
+
+.input {
+	width: 444px;
+	height: 55px;
+	border: 1px solid #808080;
+	margin-bottom: 56px;
+	margin-left: 28px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 28px;
+	padding-left: 14px;
+}
+
+.js p {
+	text-align: center;
+	margin-top: 26px;
+	margin-bottom: 36px;
+}
+
+.js a {
+margin: 0px 173px;
+}
+
+.visible {
+	display: none;
+}
+
+
+.content__section {
+	width: 634px;
+}
+
+
+.content__info {
+	display: flex;
+}
+
+.heading {
+	margin-left: 127px;
+	margin-top: 53px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 45px;
+	color: #646464;
+	width: 100px;
+}
+
+.footer {
+	margin-top: 187px;
+	background-color: #213B7E;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 23px;
+	padding: 19px;
+	display: flex;
+	justify-content: center;
+	color: #FFFFFF80;
+}
+
+.footer a {
+	text-decoration: none;
+	color: #FFFFFF80;
+}
+.all {
+	flex-grow: 1;
+}
+
+/* Студенты */
+
+.subtitle-students {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 31px;
+	line-height: 36px;
+}
+
+.content-students {
+	padding-left: calc(50% - 1202px / 2);
+	padding-right: calc(50% - 1202px / 2);
+	margin-top: 37px;
+}
+
+.students {
+	margin-top: 24px;
+	display: flex;
+	gap: 50px;
+	flex-wrap: wrap;
+}
+
+.student {
+	width: 200px;
+	position: relative;
+}
+
+.student__new {
+	position: absolute;
+	top: -12px;
+	right: -13px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+    color: #FFFFFF;
+	background: #3AA828;
+	border-radius: 20px;
+	padding: 0 2px 1px 5px;
+	text-transform: uppercase;
+}
+
+.student__name {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 23px;
+	text-align: center;
+}
+
+/* О курсе */
+
+.main__content {
+	margin-top: 33px;
+	padding-left: calc(50% - 1202px / 2);
+	padding-right: calc(50% - 1202px / 2);
+}
+
+.video {
+	margin-top: 25px;
+}
+
+.video p {
+	padding-bottom: 15px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 29px;
+}
+
+/* Как найти */
+
+.content-map {
+	margin-top: 33px;
+	padding-left: calc(50% - 1202px / 2);
+	padding-right: calc(50% - 1202px / 2);
+}
+.subtitle-map {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 35px;
+	padding-bottom: 25px;
+	margin-left: 200px;
+}
+
+.under {
+	margin-top: 15px;
+	margin-left: 200px;
+}
+
+.under p {
+	padding-bottom: 10px;
+}
+
+.under__text {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 29px;
+	color: #000000;
+}
+
+.adress {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+}
+
+.iframe__adaptive {
+	width: 100%;
+	height: 370px;
+}
+
+
+@media (max-width: 1024px)
+{
+	.header {
+		padding-left: 32px;
+		padding-right: 32px;
+	}
+
+	.menu {
+		margin-left: 0px;
+	}
+
+	.menu__link {
+		font-size: 18px;
+		padding: 20px 14px;
+	}
+
+	.content {
+		padding-left: calc(50% - 736px / 2);
+		padding-right: calc(50% - 736px / 2);
+	}
+
+	.content__section {
+		width: 70%;
+	}
+
+	.content__info {
+		align-items: center;
+	}
+
+	.content-students {
+		padding-left: calc(50% - 736px / 2);
+		padding-right: calc(50% - 736px / 2);
+	}
+
+	.main__content {
+		padding-left: calc(50% - 827px / 2);
+		padding-right: calc(50% - 827px / 2);
+	}
+
+	.content-map {
+		width: 100%;
+		padding-left: calc(50% - 1024px / 2);
+		padding-right: calc(50% - 1024px / 2);
+	}
+
+
+	.iframe__adaptive {
+		height: 370px;
+		width: 1024px;
+	}
+}
+
+@media (max-width: 768px) {
+	.header {
+		padding-right: 16px;
+		padding-left: 0px;
+	}
+
+	.menu {
+		flex-direction: column;
+	}
+
+	.logo {
+		display: none;
+	}
+
+	.content {
+		padding-left: 16px;
+		padding-right: 16px;
+	}
+
+	.content__info {
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 32px;
+		text-align: center;
+	}
+
+	.content__section {
+		width: 90%;
+	}
+
+	.content-students {
+		padding-left: 16px;
+		padding-right: 16px;
+	}
+
+	.students {
+		justify-content: center;
+	}
+
+	.main__content {
+		text-align: center;
+	}
+
+	.iframe__adaptive {
+		height: 370px;
+		width: 500px;
+	}
+
+	.content-map {
+		text-align: center;
+	}
+
+	.subtitle-map {
+		text-align: center;
+		margin-left: 0px;
+	}
+
+	.under {
+		text-align: center;
+		margin-left: 0px;
+	}
+
+	.video {
+		width: 500px;
+		margin: 25px auto;
+	}
+}
