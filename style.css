@@ -3,6 +3,10 @@
 	padding: 0;
 }
 
+a {
+	text-decoration: none;
+	color: #000000;
+}
 
 body {
 	min-height: 100vh;
@@ -413,4 +417,16 @@ margin: 0px 173px;
 		width: 500px;
 		margin: 25px auto;
 	}
+}
+
+/* aboutme */
+
+.about__me {
+	display: flex;
+	gap: 20px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
 }
